@@ -24,8 +24,7 @@ static cl::opt<std::string> inputFilename(cl::Positional,
                                           cl::init("-"),
                                           cl::value_desc("filename"));
 
-
-int main(int argc, char** argv){
-    llvm::cl::ParseCommandLineOptions(argc, argv);
-    return 0;
+int main(int argc, char** argv) {
+  llvm::cl::ParseCommandLineOptions(argc, argv);
+  return 0;
 }
